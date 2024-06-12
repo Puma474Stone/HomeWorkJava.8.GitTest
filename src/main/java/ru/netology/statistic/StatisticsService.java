@@ -10,13 +10,6 @@ public class StatisticsService {
         }
         return currentMax;
     }
-    public long findMin(long[] incomes) {
-        long currentMin = incomes[0];
-        for (long income : incomes) {
-            if (currentMin > income) {
-                currentMin = income;
-            }
-        }
-        return currentMin;
-    }
 }
+
+
